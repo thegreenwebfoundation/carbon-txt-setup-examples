@@ -1,0 +1,19 @@
+<h1>DNS TXT delegation support in Carbon.txt</h1>
+
+<p>This domain, which should be <em>delegating-with-txt-record.carbontxt.org</em> exists to demonstrate how DNS TXT records can be used to "delegate" serving a carbon.txt file to another domain you control, at a URL you choose.</p>
+
+<h3>Why would you do this?</h3>
+
+<p>This allows multiple domains hosted by the same organisation or person use the same carbon.txt file, without needing to duplicate the file on each domain.</p>
+
+<p> When setting up the domain, i.e. delegating-with-txt-record.carbontxt.org, you add a TXT record to the domain's DNS records, when you are adding a CNAME, ALIAS or A record. This TXT records points to the desired carbon.txt file, on the actual site run by the organisation responsibile for hosting delegating-with-txt-record.carbontxt.org 
+
+<p>In this example, the TXT record for <code>delegating-with-txt-record.carbontxt.org</code>, should be something like:</p>
+
+<pre><code>
+"carbon-txt=https://used-in-tests.carbontxt.org/carbon.txt 51e9ae1b1b3753083ddd4d1c42a40915171f46916126b9301e5193cedc894ebe"
+</code></pre>
+
+<h3> More details</h3>
+
+<p>For more, please see the <a href="https://carbontxt.org/">carbontxt.org</a> website.</p>

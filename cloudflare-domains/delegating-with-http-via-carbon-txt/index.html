@@ -1,0 +1,17 @@
+<h1>HTTP "Via" delegation support in carbon.txt</h1>
+
+<p>This domain, which should be <em>delegating-with-http-via.carbontxt.org</em> exists to demonstrate using HTTP 'via' headers to delegate responsibility for serving a carbon.txt file to another domain.</p>
+
+<h3>Why would you do this?</h3>
+
+<p>The primary intended use-case is an organisation that is hosting multiple sites, on multiple domains, and wants to use the same carbon.txt file for all of them, but does not have access to the controlling the DNS records on these domains.</p>
+
+<p>Imagine a hosting company, called managed-service.carbontxt.org, that hosts sites for customers on domains like customer1.com, customer2.com.<p>
+
+<p>The hosting company is controlling the servers that serve the customer's sites, but the customers control the DNS records for their domains. and the hosting company does not want to require the customers to add DNS TXT records to their domains.</p>
+
+<p>The hosting company's servers add an extra 'via' header  when serving their sites, that points to the desired carbon.txt file, usually when serving the site over a faster web server / reverse proxy like Nginx, Caddy, Apache, Pingora and so on.</p>
+
+<h3> More details</h3>
+
+<p>For more, please see the <a href="https://carbontxt.org/">carbontxt.org</a> website.</p>
