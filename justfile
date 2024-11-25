@@ -9,4 +9,4 @@ publish_delegating_with_dns_example:
 
 # update example at https://delegating-with-http-via.carbontxt.org/
 publish_delegating_with_http_via_example:
-    npx wrangler pages publish cloudflare-domains/delegating-with-http-via-carbon-txt/ --project-name delegating-with-http-via-carbon-txt
+    npx wrangler pages publish cloudflare-domains/delegating-with-http-via-carbon-txt/ --project-name delegating-with-http-via-carbontxt
