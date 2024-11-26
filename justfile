@@ -16,7 +16,8 @@ publish_has_no_carbon_txt_example:
 
 # update https://used-in-tests.carbontxt.org/
 publish_has_used_in_tests_carbon_txt_example:
-    # see PR #XXX for why we use the `--branch production` flag
+    # see PR #2 for why we use the `--branch production` flag
+    # https://github.com/thegreenwebfoundation/carbon-txt-setup-examples/pull/2
     npx wrangler pages publish cloudflare-domains/used-in-tests-carbon-txt/ --project-name used-in-tests-carbontxt --branch production
 
 list_cloudflare_pages_projects:
