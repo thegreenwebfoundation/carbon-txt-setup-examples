@@ -4,5 +4,5 @@ providers = []
 [org]
 
 credentials = [
-{ domain='used-in-tests.carbontxt.org', doctype = 'csrd-report', url = 'esrs-e2-efrag-2026-12-31-en-no-renewables.xhtml'}
+{ domain='used-in-tests.carbontxt.org', doctype = 'csrd-report', url = 'https://used-in-tests.carbontxt.org/esrs-e2-efrag-2026-12-31-en-no-renewables.xhtml'}
 ]
