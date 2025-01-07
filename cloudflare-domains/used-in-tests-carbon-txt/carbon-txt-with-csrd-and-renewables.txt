@@ -1,0 +1,8 @@
+[upstream]
+providers = []
+
+[org]
+
+credentials = [
+{ domain='used-in-tests.carbontxt.org', doctype = 'csrd-report', url = 'https://used-in-tests.carbontxt.org/esrs-e1-efrag-2026-12-31-en.xhtml'}
+]
