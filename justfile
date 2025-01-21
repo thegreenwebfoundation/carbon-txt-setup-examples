@@ -1,6 +1,9 @@
 default:
     just --list
 
+# update https://managed-service.carbontxt.org/
+publish_managed_service_carbon_txt_example:
+    npx wrangler pages publish cloudflare-domains/managed-service-carbon-txt/ --project-name managed-service-carbontxt
 
 # update https://delegating-with-txt-record.carbontxt.org/
 publish_delegating_with_dns_example:
