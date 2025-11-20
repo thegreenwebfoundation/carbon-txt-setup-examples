@@ -1,5 +1,5 @@
 [upstream]
-providers = []
+services = []
 [org]
 disclosures = [
     { domain='managed-service.carbontxt.org', doc_type = 'sustainability-page', url = 'https://managed-service.carbontxt.org/our-climate-record'}

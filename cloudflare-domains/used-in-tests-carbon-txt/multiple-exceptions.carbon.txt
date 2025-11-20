@@ -1,5 +1,5 @@
 [upstream]
-providers =  [
+services =  [
   { domain = 'syseleven.com', doc_type = 'sustainability-page', url = 'https://www.syseleven.de/en/about-us/our-data-centers/' },
   { domain = 'akamai.com'   , doc_type = 'sustainability-page', url = 'https://www.akamai.com/company/corporate-responsibility/sustainability' }
 ]
